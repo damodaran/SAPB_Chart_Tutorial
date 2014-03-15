@@ -1,0 +1,10 @@
+[{"Region":"North America","Product":"AirCon","SalesYear":2011,"Target":880000,"SalesAmt":946182.00},  
+{"Region":"North America","Product":"AirCon","SalesYear":2012,"Target":1280000,"SalesAmt":1302652.00},  
+{"Region":"Europe","Product":"AirCon","SalesYear":2011,"Target":800000,"SalesAmt":896185.00},  
+{"Region":"Europe","Product":"AirCon","SalesYear":2012,"Target":1200000,"SalesAmt":1164986.00},  
+{"Region":"Asia","Product":"AirCon","SalesYear":2011,"Target":550000,"SalesAmt":557683.00},  
+{"Region":"Asia","Product":"AirCon","SalesYear":2012,"Target":800000,"SalesAmt":668992.00},  
+{"Region":"Pacific","Product":"AirCon","SalesYear":2011,"Target":250000,"SalesAmt":278718.00},  
+{"Region":"Pacific","Product":"AirCon","SalesYear":2012,"Target":400000,"SalesAmt":410966.00},  
+{"Region":"African","Product":"AirCon","SalesYear":2011,"Target":270000,"SalesAmt":308418.00},  
+{"Region":"African","Product":"AirCon","SalesYear":2012,"Target":320000,"SalesAmt":335693.00}]  

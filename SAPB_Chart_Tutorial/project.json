@@ -1,0 +1,152 @@
+{
+	"type": "ui5",
+	"AppName": "SAPB_Chart_Tutorial",
+	"ProjectType": "Generic Application",
+	"DeviceType": "Phone",
+	"Metadata": {},
+	"SMPServices": {
+		"ServerProfile": {
+			"Password": "{\"iv\":\"CG5fbmlZDm9M8TagHTXEJg\",\"v\":1,\"iter\":1000,\"ks\":128,\"ts\":64,\"mode\":\"ccm\",\"adata\":\"\",\"cipher\":\"aes\",\"salt\":\"0rkbMHe2Bks\",\"ct\":\"jSnzvcqjPxIK3L5o5XHAuvsWs3WieeqZQ1RUbxVsz5REDfuUy5Nnnv5GmocZZxR/r7nSrGM2jveWsJqonZ2h7/dszekIx4Bk0VU8kpCXCFfT8zQ6xQCz2/ErduMoc7QR44b2F81RdEHLiM3ZuAUXy9YwO0g7o48fQX5MJbkkAFjcZp0n2757BtlnJnTSMsUez2n4uRzo/uar\"}"
+		},
+		"AppCid": "",
+		"SMPOData": []
+	},
+	"dataSources": {
+		"odata": [],
+		"odataService": [],
+		"odataQuery": [],
+		"restful": [],
+		"file": [
+			{
+				"name": "APBDemo",
+				"rootURL": "model/Data.json",
+				"jsonp": false,
+				"proxy": true,
+				"type": "[]",
+				"userName": "",
+				"password": "{\"iv\":\"As7FltqtBSjIptIa2iiOWA\",\"v\":1,\"iter\":1000,\"ks\":128,\"ts\":64,\"mode\":\"ccm\",\"adata\":\"\",\"cipher\":\"aes\",\"salt\":\"0rkbMHe2Bks\",\"ct\":\"fG6AEnUwVnw\"}",
+				"params": [],
+				"columns": [
+					{
+						"name": "id",
+						"type": "number"
+					},
+					{
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"name": "Salary",
+						"type": "number"
+					},
+					{
+						"name": "Gender",
+						"type": "boolean"
+					}
+				]
+			},
+			{
+				"name": "SalesAnalysis",
+				"rootURL": "model/RegionSales_AirCon.json",
+				"type": "[]",
+				"jsonp": false,
+				"proxy": true,
+				"userName": "",
+				"password": "{\"iv\":\"SBSwejNfCcwQz+Z0IzE6WA\",\"v\":1,\"iter\":1000,\"ks\":128,\"ts\":64,\"mode\":\"ccm\",\"adata\":\"\",\"cipher\":\"aes\",\"salt\":\"0rkbMHe2Bks\",\"ct\":\"etQXuIPdyI8\"}",
+				"params": [],
+				"columns": [
+					{
+						"name": "Region",
+						"type": "string"
+					},
+					{
+						"name": "Product",
+						"type": "string"
+					},
+					{
+						"name": "SalesYear",
+						"type": "number"
+					},
+					{
+						"name": "Target",
+						"type": "number"
+					},
+					{
+						"name": "SalesAmt",
+						"type": "number"
+					}
+				],
+				"baseType": "object"
+			}
+		],
+		"proxyPath": "/proxy/{url}/?user={user}&password={password}"
+	},
+	"AppProperties": {
+		"theme": {
+			"name": "BlueCrystal",
+			"fullname": "sap_bluecrystal",
+			"root": ""
+		},
+		"cssfiles": "css/CustomStyles.css"
+	},
+	"Themes": [
+		{
+			"name": "BlueCrystal",
+			"fullname": "sap_bluecrystal",
+			"root": ""
+		}
+	],
+	"DeviceOrientation": {
+		"Orientations": [
+			"Portrait"
+		],
+		"DefaultOrientation": "Portrait"
+	},
+	"kapsel": {
+		"AppName": "SAPB_Chart_Tutorial",
+		"Author": "Guest",
+		"ID": "com.mycompany.sapb_chart_tutorial",
+		"Version": "1.0.0",
+		"platform": {
+			"iOS": false,
+			"Android": false
+		},
+		"preference": {
+			"phonegap_version": "2.9.0",
+			"fullscreen": "True",
+			"ios_statusbarstyle": "default",
+			"webviewbounce": "True",
+			"prerendered_icon": "True",
+			"stay_in_webview": "False",
+			"detect_data_types": "True",
+			"exit_on_suspend": "False",
+			"show_splash_screen_spinner": "True",
+			"auto_hide_splash_screen": "True",
+			"android_minSdkVersion": "7",
+			"android_installLocation": "auto"
+		},
+		"icon": {
+			"src": "res/icon/icon_512.png",
+			"ios": {
+				"icon57": "res/icon/icon_ios_57.png",
+				"icon72": "res/icon/icon_ios_72.png",
+				"icon114": "res/icon/icon_ios_114.png",
+				"icon144": "res/icon/icon_ios_144.png"
+			},
+			"android": {
+				"ldpi": "res/icon/icon_android_36.png",
+				"mdpi": "res/icon/icon_android_48.png",
+				"hdpi": "res/icon/icon_android_72.png",
+				"xhdpi": "res/icon/icon_android_96.png"
+			}
+		},
+		"access": {
+			"origin": "*",
+			"subdomains": "false",
+			"browser_only": "false"
+		},
+		"revision": "-1",
+		"Description": "SAPB_Chart_Tutorial",
+		"Website": "SAPB_Chart_Tutorial"
+	}
+}

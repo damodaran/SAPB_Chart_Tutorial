@@ -1,0 +1,7 @@
+<Chart Name="chart1" ChartType="column" Query="file.SalesAnalysis|" Title="" Scattered="false">
+	<Category Column="SalesYear" Format="" SortOrder="Ascending"/>
+	<Series Column="Region" Format=""/>
+	<Values>
+		<Value Expression="SalesAmt" Format=""/>
+	</Values>
+</Chart>
